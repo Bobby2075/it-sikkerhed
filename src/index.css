@@ -23,6 +23,7 @@
 .row {
     display: flex;
     margin-right: -15px;
+    margin-bottom: 20%;
 }
 
 .row h2 {
@@ -32,5 +33,11 @@
 .col {
     position: relative;
     width: 100%;
-
+    
 } 
+
+.col1 {
+    float: left;
+    position: relative;
+    width: 100%;
+}

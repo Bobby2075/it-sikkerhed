@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+* {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+* .navbar {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  border-bottom: 1px solid;
+}
+
+* .navbar .links {
+  margin-left: auto;
+}
+
+* .navbar .links a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+* .home {
+  width: 960px;
+  margin: 5% auto;
+  text-align: left;
+}
+
+* .home h2 {
+  margin-bottom: 16px;
+}
+
+* .home li {
+  margin-top: 16px;
+  position: relative;
+  left: -3%;
+}
+
+* .fysisk {
+  margin-top: 32px;
+  border-top: 1px solid;
+  padding-top: 16px;
+}
+
+* .fysisk .txt {
+  margin-top: 16px;
+}
+/*# sourceMappingURL=style.css.map */

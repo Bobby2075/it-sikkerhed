@@ -1,11 +1,38 @@
 const Home = () => {
     return (
+        <div className="wrapper">
+            <div className="home">
+            <h2>Sikkerhed på EUC Lillebælt</h2>
+            <p>For at sikre dig at udvedkommende ikke får adgang til din pc, eller andet sker mens du er på skolen anbefales det at du følger denne IT politik for at forholde dig sikker. <br />
+            <br />
+            Den vil blandt andet komme ind under: 
+            </p>
+            <ul>
+                <li>Logisk Sikkerhed</li>
+                <li>Kommunikationssikkerhed</li>
+                <li>Datasikkerhed</li>
+                <li>gode råd</li>
+            </ul>
 
-        <div className="content">
-            <div className="row">
-                <h2 className="title col">Fysisk Sikkerhed</h2>
-                <p className="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aliquam exercitationem rem sed eveniet nihil magni rerum incidunt eligendi amet.</p>
+            <div className="fysisk" id="logik">
+                <article>
+                    <h2>Logisk Sikkerhed</h2>
+                    <p>For at opnå best mulig fysisk sikkerhed er det forslået at du følger disse råd</p>
+
+                    <p className="txt"><strong>1. Sikkerhedskopiering</strong></p>
+
+                    <p className="txt">Sikkerhedskopiering handler om, at du jævnligt tager kopier af din pc's indhold som fx vigtige filer eller lign, så du ikke mister dem. derved er du altid klar til undervisnigen</p>
+
+                    <p className="txt"><strong>2. Adgangskoder</strong></p>
+
+                    <p className="txt">Det er også vigtigt at du jævnligt sikre dig at dine adgangskoder er opdateret. Din adgangskode burde være 16 tegn lang og indholde store, små, numre, og symboler for at opnå mest effektiv sikkerhed. Det forslårs også at du opdatere din adgangskode hver 3 måned. Du må IKKE skrive din kode ned i filer på din pc da det kan være en sikkerhedsrisiko, skriv dem ned på et styk papir eller download en kode manager. Det er også vigtigt ikke at bruge den samme kode flere steder.</p>
+
+                    <p className="txt"><strong>Antivirus</strong></p>
+                </article>
             </div>
+
+           
+        </div>
         </div>
     );
 }

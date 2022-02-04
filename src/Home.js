@@ -35,6 +35,22 @@ const Home = () => {
                 </article>
             </div>
 
+            <div className="fysisk" id="data">
+                <article>
+                    <h2>Data Sikkerhed</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, quae.</p>
+
+                    <p className="txt"><strong>1. Lorem</strong></p>
+
+                    <p className="txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eius.</p>
+
+                    <p className="txt"><strong>2. Lorem</strong></p>
+
+                    <p className="txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, tempore?</p>
+                </article>
+            </div>
+
            
         </div>
         </div>

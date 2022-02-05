@@ -6,7 +6,7 @@ html {
 * {
   margin: 0;
   font-family: 'Quicksand', sans-serif;
-  font-size: 1.5vw;
+  font-size: 1vw;
 }
 
 * .navbar {
@@ -22,6 +22,10 @@ html {
   border-bottom: 1px solid;
 }
 
+* .navbar h1 {
+  color: #1924fe;
+}
+
 * .navbar .links {
   margin-left: auto;
 }
@@ -32,6 +36,10 @@ html {
   padding: 6px;
 }
 
+* .navbar .links a:hover {
+  color: #1924fe;
+}
+
 * .home {
   max-width: 960px;
   margin: 5% auto;
@@ -40,12 +48,17 @@ html {
 
 * .home h2 {
   margin-bottom: 16px;
+  color: #1924fe;
 }
 
 * .home li {
   margin-top: 16px;
   position: relative;
   left: -3%;
+}
+
+* .home #brr {
+  padding-top: 32px;
 }
 
 * .fysisk {
@@ -56,5 +69,43 @@ html {
 
 * .fysisk .txt {
   margin-top: 16px;
+}
+
+* ol li {
+  padding-top: 5px;
+  margin-left: 5px;
+}
+
+* .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* .footer .menu-item {
+  -ms-flex-preferred-size: 16.66%;
+      flex-basis: 16.66%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+* .footer .menu-item a {
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1px solid #111111;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  color: #111111;
+}
+
+* .footer .menu-item .submenu {
+  display: block;
+  padding-bottom: 11px;
+}
+
+* .footer .menu-item .submenu a {
+  border-bottom: none;
 }
 /*# sourceMappingURL=style.css.map */

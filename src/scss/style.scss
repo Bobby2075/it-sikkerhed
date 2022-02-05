@@ -6,7 +6,7 @@ html {
 * {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.5vw;
+    font-size: 1vw;
 
     .navbar {
         padding: 20px;
@@ -16,6 +16,10 @@ html {
         margin: 0 auto;
         border-bottom: 1px solid;
 
+        h1 {
+            color: #1924fe;
+        }
+
         .links {
             margin-left: auto;
 
@@ -24,7 +28,13 @@ html {
                 text-decoration: none;
                 padding: 6px;
             }
+
+            a:hover {
+                color: #1924fe;
+            }
         }
+
+       
     }
 
     .home {
@@ -34,12 +44,17 @@ html {
 
         h2 {
             margin-bottom: 16px;
+            color: #1924fe;
         }
 
         li {
             margin-top: 16px;
             position: relative;
             left: -3%;
+        }
+
+        #brr {
+            padding-top: 32px;
         }
         
     }
@@ -48,11 +63,44 @@ html {
         margin-top: 32px;
         border-top: 1px solid;
         padding-top: 16px;
+        
 
         .txt {
             margin-top: 16px;
         }
     }
-    
 
+    ol {
+        li {
+            padding-top: 5px;
+            margin-left: 5px;
+        }
+    }
+    
+    .footer {
+        display: flex;
+
+        .menu-item {
+            flex-basis: 16.66%;
+            flex-direction: column;
+
+            a {
+                text-decoration: none;
+                display: inline-block;
+                border-bottom: 1px solid #111111;
+                padding-bottom: 8px;
+                margin-bottom: 20px;
+                color: #111111;
+            }
+
+            .submenu {
+                display: block;
+                padding-bottom: 11px;
+
+                a {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
 }

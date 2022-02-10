@@ -4,33 +4,41 @@ const Footer = () => {
             <div className="menu-item">
                 <a className="overskrift" href="https://www.eucl.dk/">HTX</a>
                 <div className="submenu">
-                    <a href="https://www.eucl.dk/htx/om-htx/">Om HTX</a>
-                    <a href="">Studieretninger</a>
-                    <a href="">Fag og valgfag</a>
-                    <a href="">Uddannelsens opbygning</a>
-                    <a href="">Studierejser</a>
-                    <a href="">For elever på HTX</a>
-                    <a href="">Årskalender</a>
-                    <a href="">Studievejledninger</a>
-                    <a href="">Medarbejdere</a>
-                    <a href="">Eliteidræt</a>
-                    <a href="">Praktiske informationer</a>
+
+                    <li><a href="">Elevhåndbog</a></li>
+                    <li><a href="">Studieretninger</a></li>
+                    <li><a href="">Fag og valgfag</a></li>
+                    <li><a href="">Uddannelsens opbygning</a></li>
+                    <li><a href="">Studierejser</a></li>
+                    <li><a href="">For elever på HTX</a></li>
+                    <li><a href="">Årskalender</a></li>
+                    <li><a href="">Studievejledninger</a></li>
+                    <li><a href="">Medarbejdere</a></li>
+                    <li><a href="">Eliteidræt</a></li>
+                    <li><a href="">Praktiske informationer</a></li>
+
                 </div>
             </div>
             <div className="menu-item">
-                    <a className="overskrift" href="">EUD/EUX</a>
-                    <div className="submenu">
-                        <a href="">Videruddannelse</a>
-                        <a href="">Elevhåndbog</a>
-                        <a href="">Medarbejdere</a>
-                        <a href="">Studievejledninger</a>
-                        <a href="">EU Socialfondsprojekter</a>
-                        <a href="">Internationalisering</a>
-                        <a href="">Skolepraktik</a>
-                        <a href="">Skolepraktikcenter</a>
-                        <a href="">Videnscenter</a>
-                    </div>
+                <a className="overskrift" href="">EUD/EUX</a>
+                <div className="submenu">
+
+                    <li><a href="">Medarbejdere</a></li>
+                    <li><a href="">Studievejledninger</a></li>
+                    <li><a href="">EU Socialfondsprojekter</a></li>
+                    <li><a href="">Internationalisering</a></li>
+                    <li><a href="">Skolepraktik</a></li>
+                    <li><a href="">Skolepraktikcenter</a></li>
+                    <li><a href="">Videnscenter</a></li>
+
                 </div>
+            </div>
+            <div className="menu-item">
+                <a href="" className="overskrift">Om os</a>
+                <div className="submenu">
+                    <li></li>
+                </div>
+            </div>
         </div>
     );
 }

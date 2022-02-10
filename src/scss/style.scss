@@ -79,28 +79,34 @@ html {
     
     .footer {
         display: flex;
-
+        flex-wrap: wrap;
+        max-width: 960px;
+        margin: 0 auto;
+        background-color: #fdd716;
+        
         .menu-item {
-            flex-basis: 16.66%;
+            flex-basis: 16%;
             flex-direction: column;
-
-            a {
-                text-decoration: none;
-                display: inline-block;
-                border-bottom: 1px solid #111111;
-                padding-bottom: 8px;
-                margin-bottom: 20px;
-                color: #111111;
+            color: #111111;
+            margin-left: 16px;
+            border-right: 1px solid;
+            flex: 1;
+            
+            li {
+                list-style-type: none;    
+                    a {
+                        text-decoration: none;
+                        display: inline-block;
+                        padding-bottom: 8px;
+                        margin-bottom: 20px;
+                        color: #111111;
+                    }
             }
 
             .submenu {
-                display: block;
-                padding-bottom: 11px;
-
-                a {
-                    border-bottom: none;
-                }
+                padding-top: 10px;
             }
+            
         }
     }
 }

@@ -36,7 +36,20 @@ const Footer = () => {
             <div className="menu-item">
                 <a href="" className="overskrift">Om os</a>
                 <div className="submenu">
-                    <li></li>
+                    <li><a href="">Personale</a></li>
+                    <li><a href="">Mål og strategier</a></li>
+                    <li><a href="">Organisation</a></li>
+                    <li><a href="">Udbudspolitik</a></li>
+                    <li><a href="">Evaluering</a></li>
+                    <li><a href="">Lokale uddannelsesvalg</a></li>
+                    <li><a href="">Elevråd</a></li>
+                    <li><a href="">Udlejning</a></li>
+                    <li><a href="">Kantine</a></li>
+                    <li><a href="">Privatlivspolitik</a></li>
+                    <li><a href="">Cookiepolitik</a></li>
+                    <li><a href="">Job på EUC Lillebælt</a></li>
+                    <li><a href="">Skolehjem</a></li>
+                    <li><a href="">Kvalitet</a></li>
                 </div>
             </div>
         </div>
